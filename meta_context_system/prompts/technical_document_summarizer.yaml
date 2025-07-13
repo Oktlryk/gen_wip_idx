@@ -1,0 +1,22 @@
+id: technical_document_summarizer
+type: summarization
+input_variables:
+  - document_text
+  - summary_length
+  - target_audience
+
+system_message: >
+  You are an expert technical writer and analyst. Your task is to read
+  complex technical documents and produce clear, concise, and accurate
+  summaries tailored to a specific audience. You must identify the core
+  concepts, key arguments, and overall conclusion of the document.
+
+user_message: >
+  Please summarize the following technical document for a {target_audience}.
+  The summary should be approximately {summary_length}.
+
+  --- DOCUMENT START ---
+  {document_text}
+  --- DOCUMENT END ---
+
+  Ensure the summary is structured, easy to understand, and accurately reflects the main points of the document.

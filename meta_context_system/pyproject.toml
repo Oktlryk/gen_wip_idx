@@ -1,0 +1,7 @@
+[tool.ruff]
+exclude = [
+    "meta_context_studio/generated_apps",
+]
+
+[tool.ruff.lint]
+ignore = ["E402"]

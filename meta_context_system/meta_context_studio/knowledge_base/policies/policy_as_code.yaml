@@ -1,0 +1,4 @@
+policies:
+  - name: "PEP8 Compliance"
+    description: "All generated Python code must adhere to PEP8 standards."
+    enforcement: "pylint"

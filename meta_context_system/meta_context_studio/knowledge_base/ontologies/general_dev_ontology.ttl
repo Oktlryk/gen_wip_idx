@@ -1,0 +1,30 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dev: <http://genesis-engine.com/ontology/dev#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+
+#
+# Ontology for General Software Development Concepts
+#
+
+# Classes
+dev:SoftwareProject a rdfs:Class ;
+    rdfs:label "Software Project" ;
+    rdfs:comment "Represents a software project being developed by the meta-agent system." .
+
+dev:CodeFile a rdfs:Class ;
+    rdfs:label "Code File" ;
+    rdfs:comment "A file containing source code." .
+
+dev:Function a rdfs:Class ;
+    rdfs:label "Function" ;
+    rdfs:comment "A function or method within a code file." .
+
+dev:Agent a rdfs:Class ;
+    rdfs:label "Agent" ;
+    rdfs:comment "An autonomous agent responsible for a specific development task." .
+
+# Properties
+dev:hasFile a rdf:Property ;
+    rdfs:domain dev:SoftwareProject ;
+    rdfs:range dev:CodeFile .

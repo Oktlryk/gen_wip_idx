@@ -1,0 +1,28 @@
+# This file is used to lock down the project's dependencies to known stable versions
+# to ensure compatibility and prevent errors like the one encountered with Haystack.
+#
+# To install these dependencies, run:
+# pip install -r requirements.txt
+#
+# It's highly recommended to do this in a clean virtual environment.
+
+# --- Core Haystack Framework & Integrations ---
+haystack-ai
+
+# --- Foundational Libraries for Haystack ---
+sentence-transformers
+markdown-it-py
+beautifulsoup4
+lxml
+
+# --- Genesis Engine Core Libraries ---
+fastapi
+uvicorn
+langchain
+pydantic
+rdflib
+langchain-google-genai
+
+# --- LanceDB Integration ---
+lancedb
+pyarrow

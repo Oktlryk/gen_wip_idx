@@ -1,0 +1,24 @@
+
+# Configuration for agent behaviors and roles
+agents:
+  MetaAgent:
+    model: "gemini-pro"
+    description: "The central orchestrator, managing high-level goals and agent delegation."
+  ContextExtractionAgent:
+    model: "gemini-pro"
+    description: "Specialized in extracting structured information from unstructured data."
+  ArchitectAgent:
+    model: "gemini-pro"
+    description: "Designs high-level software architecture and service breakdowns."
+  BackendEngineerAgent:
+    model: "gemini-pro"
+    description: "Generates backend code, including API endpoints and database schemas."
+  FrontendEngineerAgent:
+    model: "gemini-pro"
+    description: "Develops user interface components and integrates them with the backend."
+  DevOpsAgent:
+    model: "gemini-pro"
+    description: "Creates deployment configurations and automates CI/CD pipelines."
+  TestGenerationAgent:
+    model: "gemini-pro"
+    description: "Produces unit, integration, and end-to-end tests."

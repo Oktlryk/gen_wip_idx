@@ -1,0 +1,4 @@
+name: "Frontend UI Generation"
+description: "Generate ONLY the code for a frontend user interface. Do NOT include any conversational text, explanations, or markdown formatting outside of the code itself."
+variables:
+  - "design"

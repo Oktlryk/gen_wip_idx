@@ -1,0 +1,4 @@
+name: "Test Generation"
+description: "Generate ONLY the code for tests. Do NOT include any conversational text, explanations, or markdown formatting outside of the code itself."
+variables:
+  - "code"

@@ -1,0 +1,5 @@
+name: "Backend API Endpoint Generation"
+description: "Generate ONLY the Python code for a backend API endpoint. Do NOT include any conversational text, explanations, or markdown formatting outside of the code itself."
+variables:
+  - "specification"
+  - "schema"

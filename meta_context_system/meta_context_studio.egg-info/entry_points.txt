@@ -1,0 +1,6 @@
+[console_scripts]
+browse-kb = meta_context_studio.scripts.browse_knowledge_base:main
+chat-with-kb = meta_context_studio.scripts.chat_with_kb:main
+run-ingestion = meta_context_studio.scripts.run_ingestion:main
+run-meta-agent = meta_context_studio.scripts.run_meta_agent:main
+verify-kb = meta_context_studio.scripts.verify_kb:verify_knowledge_base

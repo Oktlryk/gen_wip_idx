@@ -1,0 +1,11 @@
+fastapi
+uvicorn
+gradio
+pydantic-settings
+langchain
+langchain-community
+haystack-ai
+lancedb
+rdflib
+sentence-transformers
+pypdf

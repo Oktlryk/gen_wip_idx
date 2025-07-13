@@ -1,0 +1,4 @@
+body { font-family: sans-serif; margin: 20px; }
+h1 { color: #333; }
+button { padding: 10px 15px; background-color: #007bff; color: white; border: none; cursor: pointer; }
+#output { margin-top: 20px; padding: 10px; border: 1px solid #ccc; }

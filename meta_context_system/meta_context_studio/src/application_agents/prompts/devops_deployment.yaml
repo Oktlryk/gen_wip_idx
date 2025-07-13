@@ -1,0 +1,4 @@
+name: "DevOps Deployment Generation"
+description: "Generate ONLY the configuration for a deployment. Do NOT include any conversational text, explanations, or markdown formatting outside of the configuration itself."
+variables:
+  - "architecture"

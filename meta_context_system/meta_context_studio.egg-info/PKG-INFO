@@ -1,0 +1,21 @@
+Metadata-Version: 2.4
+Name: meta-context-studio
+Version: 0.1.0
+Summary: The Genesis Engine: A Meta-Context Engineering System
+Author: Gemini Code Assist
+Author-email: no-reply@google.com
+Requires-Dist: fastapi
+Requires-Dist: uvicorn
+Requires-Dist: gradio
+Requires-Dist: pydantic-settings
+Requires-Dist: langchain
+Requires-Dist: langchain-community
+Requires-Dist: haystack-ai
+Requires-Dist: lancedb
+Requires-Dist: rdflib
+Requires-Dist: sentence-transformers
+Requires-Dist: pypdf
+Dynamic: author
+Dynamic: author-email
+Dynamic: requires-dist
+Dynamic: summary

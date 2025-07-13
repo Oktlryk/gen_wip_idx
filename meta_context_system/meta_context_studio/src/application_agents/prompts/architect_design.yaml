@@ -1,0 +1,5 @@
+name: "Architectural Design"
+description: "A prompt for designing the high-level architecture of a software system."
+variables:
+  - "requirements"
+  - "constraints"
